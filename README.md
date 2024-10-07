@@ -44,7 +44,7 @@ You can run the script either in **interactive mode** or **non-interactive mode*
 Run the script with the `-i` flag to enable interactive mode, where you will be prompted to input the necessary values:
 
 ```bash
-python script.py -i
+python main.py -i
 ```
 
 You will be asked to provide the following information:
@@ -89,7 +89,7 @@ python script.py --username admin --password password123 --firewall-ip 192.168.1
 ### Sample Command (Non-Interactive Mode)
 
 ```bash
-python script.py --username admin --password password123 --firewall-ip 192.168.1.1 --firewall-port 8443 --old-cert old-cert --new-cert new-cert
+python main.py --username admin --password password123 --firewall-ip 192.168.1.1 --firewall-port 8443 --old-cert old-cert --new-cert new-cert
 ```
 
 ### Output
