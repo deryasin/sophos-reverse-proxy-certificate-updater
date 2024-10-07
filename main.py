@@ -160,7 +160,7 @@ def get_args():
     parser.add_argument('--username', type=str, help="Firewall username")
     parser.add_argument('--password', type=str, help="Firewall password")
     parser.add_argument('--firewall-ip', type=str, help="Firewall IP address")
-    parser.add_argument('--firewall-port', type=str, default="8443", help="Firewall port (default: 8443)")
+    parser.add_argument('--firewall-port', type=str, default="4444", help="Firewall port (default: 4444)")
     parser.add_argument('--old-cert', type=str, help="Old certificate to replace")
     parser.add_argument('--new-cert', type=str, help="New certificate to set")
     return parser.parse_args()
