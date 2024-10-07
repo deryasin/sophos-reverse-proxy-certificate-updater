@@ -1,7 +1,11 @@
 # Sophos Speedy Reverse Proxy Certificate Updater 
 
-This Python script allows you to update the certificates for for Entries in the Sophos reverse proxy real quick.
+This script is designed to help all the unfortunate admins who have to manage a Sophos firewall and use (or are forced to use) the Reverse Proxy. 
 It will fetch firewall rules from a file or an API, check for certificates, and update certificates only for rules that have a specific "old certificate" value. The script also lists the rules that already have the new certificate.
+
+The script automates the tedious process of updating certificates, turning what would typically be 2 hours of manual labor (depending on the number of entries) 
+into just 15 minutes of watching the shell. 
+Don't forget that Sophos hardcodes a maximum of 50 (55) active entries ;) 
 
 ## Features
 
